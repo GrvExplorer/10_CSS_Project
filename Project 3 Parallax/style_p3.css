@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.section1{
+    background-image: url(./images/prallex_image.jpg);
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}   
+.section2{
+    background-image: url(./images/forest2.jpg);
+    height: 1000px;
+}
+.section3{
+    background-image: url(./images/forest1.jpg);
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #313534;
+    color: #F7ECE5;
+    width: 678px;
+    height: 125px;
+    font-size: 25px;
+    text-transform: uppercase;
+}            
+.box2{
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 35px;
+}
+.box3{
+    height: fit-content;
+    width: fit-content;
+    font-weight: 300;
+    padding: 40px;
+}
+
+.about1{
+    background-color: white;
+    height: 400px;
+    width: 2150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px 30px 20px;
+}
+.about2{
+    background-color: #313534;
+    color: white;
+}
+
+.content{
+    margin: 90px;
+    padding-top: 40px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.content h1{font-weight: 300; text-transform: uppercase;}
+/* .para{border: 1px solid rosybrown; padding: 20px;} */
